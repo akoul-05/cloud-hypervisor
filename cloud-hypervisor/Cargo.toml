@@ -20,7 +20,7 @@ rust-version = "1.89.0"
 [dependencies]
 anyhow = { workspace = true }
 api_client = { path = "../api_client" }
-clap = { workspace = true, features = ["string"] }
+clap = { workspace = true, features = ["string", "derive"] }
 dhat = { workspace = true, optional = true }
 env_logger = { workspace = true }
 epoll = { workspace = true }
